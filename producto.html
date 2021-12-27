@@ -21,16 +21,34 @@
         </a>
     </header>
 
-    <nav class="navegacion" >
-        <a href="" class="navegacion__enlace navegacion__enlace--activo" >Tienda</a>
-        <a href="" class="navegacion__enlace" >Nosotros</a>
+    <nav class="navegacion">
+        <a href="" class="navegacion__enlace navegacion__enlace--activo">Tienda</a>
+        <a href="" class="navegacion__enlace">Nosotros</a>
     </nav>
 
-    <main>
-        <h1>Nuestros productos</h1>
+    <main class="contendor">
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/1.jpg" alt="Imagen_camisa">
+            <div class="camisa__contenido">
+                <p>Pellentesque auctor mauris vitae nunc condimentum fringilla. Cras vitae tellus varius, pulvinar
+                    mauris et, sagittis erat. Curabitur eget urna faucibus, dignissim nulla sit amet, malesuada enim.
+                    Pellentesque</p>
+                <form class="formulario">
+                    <select name="" id="" class="formulario__campo">
+                        <option value="" disabled selected >Seleccionar talla</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+                    <input type="number" placeholder="Cantidad" min="1" class="formulario__campo">
+                    <input type="submit" value="Agregar al carrito" class="formulario__submit">
+                </form>
+            </div>
+        </div>
     </main>
 
-    <footer class="footer" >
+    <footer class="footer">
         <p class="footer__texto">Front End Store - Todos los derechos Reservados 2022.</p>
     </footer>
 </body>
